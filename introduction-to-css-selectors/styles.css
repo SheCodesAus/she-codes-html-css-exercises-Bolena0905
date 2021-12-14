@@ -1,0 +1,30 @@
+body {
+    background-color: lavender;
+}
+
+#tag {
+    background-color: peachpuff;
+}
+
+/* con . es class */
+.list-item {
+    background-color: darkgreen;
+}
+
+/* con . es class */
+.main-heading { 
+    background-color: lightskyblue;
+}
+
+/* con # es id */
+#first-paragraph {
+    background-color: lightcoral;
+}
+
+#nav-item1 { 
+    background-color: mediumpurple;
+}
+
+#nav-item2 { 
+    background-color: gold;
+}
