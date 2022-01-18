@@ -4,68 +4,107 @@ background-color: white;
 
 header{
     background-color: white;
-    text-align: left;
-    width:50%;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    width: 100%;
+    
 }
+
+h1.lefthheader{
+    background-color: white;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(241, 23, 107);
+    font-weight: bolder;
+   
+}
+   
 
 nav { 
     background-color: white;
-    
+    width: 50%;
     font-size: small;
     display: inline-block;
-    
+    margin: 5px;
+    padding: 5px;
 }
 
 nav a {
-    
     margin: 5px;
     padding: 5px;
     width: 50%;
     text-align: right;
+    color: black;
+    font-weight: bolder;
 }
-
-/* .rightheader{
-    text-align: right;
-    width: 50%;
-    float: right;
-    margin-top: 25px ;
-    background-color: white;
-}
-
-.lefthheader{
-    text-align: left;
-    width: 50%;
-    float: left;
-    background-color: white;
-    
-} */
 
 .maindiv {
-    background-color: #F0F7E0;
+    background-color: #eeeaea;
     display: block;
     margin: 5px;
-    padding: 5px;
     width: 100%;
+    padding: 5px;
+    text-align: center;
+ 
+}
+#ncoders{
+    color: rgb(241, 23, 107);
+
 }
 
 div {
     display: inline-block;
+
 }
 
 .image {
-    height: 200px;
+    height: 180px;
+    height: 10em;
     width: 100%;
     object-fit: cover;
+ 
 }
 
 .boxcontent { 
-    margin: 5px;
-    padding: 5px;
-    width: 31.5%;
+    margin:8px;
+    padding: 10px;
+    width: 29.5%;
     background-color: white;
+    display: inline-block;
 
+}
+
+h3{
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bolder;
+    display: inline;
+    text-align: initial;
+    
+}
+h4{
+    color: grey;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    
+}
+
+#scparr{
+    color: rgb(241, 23, 107);
+    text-align: left;
+    font-weight: bolder;
 }
 
 .tittle{ 
     text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+p{
+    text-align: left;
 }
