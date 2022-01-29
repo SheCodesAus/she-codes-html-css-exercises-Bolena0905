@@ -58,24 +58,85 @@ nav a {
     display: inline-flex;
 }
 
+.timeline-wrapper {
+    position: relative;
+    padding: 22px 0;
+    display: inline-flex;
+}
+
+.line:before {
+    content: "";
+    background: #474559;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 38px;
+}
+
+.timeline-yr {
+    background: #474559;
+    border-radius: 100%;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.timeline-yr span {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    line-height: 75px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.stylep{
+    margin: 40px 60px 10px;
+}
 
 
+h3 {
+    font-size: 30px;
+    margin: 30px 90px 10px;
+}
+
+h4 {
+    margin: 10px 85px 10px;
+}
 
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    display: inline-flex;
+    
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
 
 
 
@@ -128,4 +189,11 @@ form {
 
 .form-item button {
     width: 100px;
+}
+
+.socialmedia {
+    display: inline-flex;
+    margin: 10px;
+    justify-content: center;
+    width: 100%;
 }
